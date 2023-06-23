@@ -14,6 +14,7 @@ if [ -x /usr/bin/dircolors ]; then
 fi
 
 alias ll='ls -ahl'
+alias ownr='chown -R node:node .'
 
 if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
